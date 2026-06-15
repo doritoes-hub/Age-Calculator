@@ -1,4 +1,15 @@
 import streamlit as st
+st.markdown(
+    """
+    <style>
+    #MainMenu {visibility: hidden;}
+    header {visibility: hidden;}
+    footer {visibility: hidden;}
+    .stAppDeployButton {display: none !important;}
+    </style>
+    """,
+    unsafe_html=True)
+
 def add_side_doodles(left_file, right_file):
     import base64
     import streamlit as st
