@@ -6,7 +6,7 @@ hide_menu_style = """
         .stAppDeployButton {display: none !important;}
         </style>
         """
-st.markdown(hide_menu_style, unsafe_html=True)
+st.markdown("hide_menu_style", unsafe_html=True)
 
 def add_side_doodles(left_file, right_file):
     import base64
