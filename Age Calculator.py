@@ -1,6 +1,5 @@
 import streamlit as st
-st.markdown("<style>
-             header {visibility: hidden;} 
+st.markdown("<style>header {visibility: hidden;} 
              footer {visibility: hidden;} .stAppDeployButton {display: none !important;}</style>, unsafe_html=True")
 
 def add_side_doodles(left_file, right_file):
