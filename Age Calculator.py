@@ -1,12 +1,12 @@
 import streamlit as st
-hide_menu_style = """
-        <style>
-        header {visibility: hidden;}
-        footer {visibility: hidden;}
-        .stAppDeployButton {display: none !important;}
-        </style>
-        """
-st.markdown("hide_menu</style>", unsafe_html=True)
+st.set_page_config(
+    page_title="Age Calculator",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
+
+# Hide the header and footer completely
+st.html("<style>header, footer, .stAppDeployButton {display: none !important;}</style>")
 
 def add_side_doodles(left_file, right_file):
     import base64
