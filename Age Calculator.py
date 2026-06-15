@@ -1,7 +1,6 @@
 import streamlit as st
-st.set_page_config(layout="wide") # Optional: keeps your layout nice and wide
+st.set_page_config(layout="wide")
 
-# This completely hides the header, footer, and deploy button
 st.markdown("<style>header {visibility: hidden;} footer {visibility: hidden;} .stAppDeployButton {display: none !important;}</style>", unsafe_html=True)
 
 def add_side_doodles(left_file, right_file):
