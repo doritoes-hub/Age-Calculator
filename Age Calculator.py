@@ -34,7 +34,7 @@ def add_side_doodles(left_file, right_file):
         """,
         unsafe_allow_html=True)
     
-add_side_doodles("new5.png","new5.png")
+add_side_doodles("new7.png","new7.png")
 st.markdown("<style>.stApp {background-color: #C1E1C1;}</style>", unsafe_allow_html=True)
 st.title("Calculate Your Age")
 user_1 = st.selectbox("Please enter your birth year", [  2026, 2025, 2024, 2023, 2022, 2021, 2020,2019, 2018, 2017, 2016, 2015, 2014,
