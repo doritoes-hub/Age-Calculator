@@ -60,14 +60,14 @@ elif user_2 in {2}:
                                                            25, 26, 27, 28,29,])
 
 age = 2026 - int(user_1)
-if int(user_2) >= 6:
-    month = 12 - int(user_2) + 6
+if int(user_2) >= 7:
+    month = 12 - int(user_2) + 7
 else:
-    month = 6 - int(user_2)
+    month = 7 - int(user_2)
         
     
     
-if 6 < int(user_2):
+if 7 < int(user_2):
     age -= 1
         
         
